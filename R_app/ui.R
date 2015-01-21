@@ -1,5 +1,7 @@
 library(shiny)
 
+data <- read.csv("./data/alcohol_consumption.csv", sep=";")
+
 shinyUI(pageWithSidebar(
   
   headerPanel("Alcohol consumption analysis"),
