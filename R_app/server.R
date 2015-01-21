@@ -1,6 +1,6 @@
 library(shiny)
 
-data <- read.csv("alcohol_consumption.csv", sep=";")
+data <- read.csv("https://github.com/sylwesterf/repo/blob/master/R_app/alcohol_consumption.csv", sep=";")
 year <- 1960:2013
 rownames(data) <- year
 
