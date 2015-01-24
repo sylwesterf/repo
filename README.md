@@ -1,4 +1,2 @@
 # repo
-shiny_repo
-
-# some random comments
+This repository contains "Alcohol consumption analysis" R Shiny app 
